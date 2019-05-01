@@ -22,9 +22,10 @@ def assign_rooms(attendees)
   return rooms
 end
 
-#def printer
-  
-#end 
+def printer
+  batch_badge_creator
+  assign_rooms
+end 
 
 
 
